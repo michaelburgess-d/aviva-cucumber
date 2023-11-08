@@ -1,9 +1,10 @@
-class Greeter {
-    sayHello() {
-        return 'hello'
-    }
+
+function add(x, y) {
+    return x + y;
 }
 
-module.exports = {
-    Greeter
-};
+function sub(x, y) {
+    return x - y;
+}
+
+module.exports = {add, sub};
